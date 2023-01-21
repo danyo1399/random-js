@@ -5,7 +5,7 @@ document.addEventListener("alpine:init", () => {
   Alpine.data("drag", () => ({
     isDragging: false,
     startX: 0,
-          styles: {paddingLeft: this.paddingLeft + 'px', paddingRight: this.paddingRight + 'px'}
+    styles: {paddingLeft: this.paddingLeft + 'px', paddingRight: this.paddingRight + 'px'}
     paddingLeft: minPadding,
     startPadding: 0,
     paddingRight: minPadding,
